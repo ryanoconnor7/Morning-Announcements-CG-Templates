@@ -18,7 +18,7 @@ function update(arg) {
 }
 
 function fetch() {
-    wether.fetch(11501)
+    weather.fetch(11501)
 }
 
 weather = {
