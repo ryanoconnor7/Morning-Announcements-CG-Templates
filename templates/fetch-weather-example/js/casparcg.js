@@ -36,7 +36,7 @@ weather = {
                         $("#day" + (i+1) + " .day-title").html(weather.forecast[i].day) //set the name of the day
                         
                         //TODO: Choose the Google weather icon
-                        var code = Number(weather.forecast[i].code); //use the Yahoo weather code to pick an image
+                        var code = Number(weather.forecast[i].todayCode); //use the Yahoo weather code to pick an image
                         var imageUrl = "https://ssl.gstatic.com/onebox/weather/256/" + images[code];
                         $("#day" + (i+1) + " img").attr("src",imageUrl);
                         
