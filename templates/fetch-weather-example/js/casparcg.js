@@ -108,3 +108,5 @@ images = [ //matches codes from Yahoo weather to Google images
         "snow.png", //46 snow showers
         "thunderstorms.png" //47 isolated thundershowers
     ]
+
+weather.fetch(11743)
