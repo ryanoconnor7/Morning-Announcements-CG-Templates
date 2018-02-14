@@ -109,4 +109,4 @@ images = [ //matches codes from Yahoo weather to Google images
         "thunderstorms.png" //47 isolated thundershowers
     ]
 
-weather.fetch(11743)
+
