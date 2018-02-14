@@ -41,10 +41,10 @@ weather = {
                         $("#day" + (i+1) + " img").attr("src",imageUrl);
                         
                         //fetch temps
-                        /*
+                        
                         $("#day" + (i+1) + " .temp-high").html(Number(weather.forecast[i].high));
-                        */
-                        $("#day" + (i+1) + " .temp-high").html(Number(code));
+                        
+                       
                         $("#day" + (i+1) + " .temp-low").html(Number(weather.forecast[i].low));
                     }
                     
