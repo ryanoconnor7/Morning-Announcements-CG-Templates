@@ -13,7 +13,7 @@
     margin-top:0px;
     font-weight:500;
     text-transform:uppercase;
-    
+    color:#85110C;
 }
 
 .precipitation {
@@ -24,6 +24,7 @@
     font-size: 4.5em;
     font-weight:500;
     line-height:1em;
+    color:#85110C;
 }
 
 .temp-high:after {
@@ -39,6 +40,7 @@
     font-weight:400;
     line-height:1em;
     color:#8c8c8c;
+    opacity:60%;
 }
 
 body {
