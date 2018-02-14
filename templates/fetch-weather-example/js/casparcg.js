@@ -17,6 +17,10 @@ function update(arg) {
     weather.fetch(json.zipcode)
 }
 
+function fetch() {
+    wether.fetch(11501)
+}
+
 weather = {
     zipcode : undefined,
     fetch : function(arg_location) {
