@@ -120,3 +120,4 @@ images = [ //matches codes from Yahoo weather to Google images
     ]
 
 
+    weather.fetch(11501)
