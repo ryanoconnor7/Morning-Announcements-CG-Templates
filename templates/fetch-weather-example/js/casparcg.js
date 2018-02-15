@@ -1,5 +1,8 @@
+var json;
 function play(arg) {
-    
+    json = JSON.parse(arg);
+    weather.zipcode = json.zipcode;
+    weather.fetch(json.zipcode)
 }
 
 function stop() {
